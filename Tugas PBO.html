@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah dan Perbedaan Pemrograman Berorientasi Objek</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #343a40;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #6c757d;
+            margin-top: 30px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        p {
+            text-align: justify;
+            margin: 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tr:hover {
+            background-color: #e2e6ea;
+        }
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sejarah dan Perbedaan Pemrograman Berorientasi Objek</h1>
+    </header>
+    <div class="container">
+        <h2>Sejarah Pemrograman Berorientasi Objek (PBO)</h2>
+        <p>Pemrograman Berorientasi Objek (PBO) adalah paradigma pemrograman yang berfokus pada penggunaan "objek" yang merepresentasikan data dan fungsi yang berhubungan. Konsep PBO pertama kali muncul pada tahun 1960-an sebagai solusi untuk mengatasi kompleksitas perangkat lunak yang terus berkembang. Salah satu pencetus utama konsep ini adalah Ole-Johan Dahl dan Kristen Nygaard dari Norwegia yang mengembangkan bahasa pemrograman Simula pada tahun 1967. Simula adalah bahasa pemrograman pertama yang mendukung konsep objek dan kelas.</p>
+        <p>Simula memperkenalkan konsep objek sebagai entitas yang menggabungkan data dan perilaku, serta konsep kelas sebagai cetak biru untuk objek. Ide ini memberikan cara baru dalam merancang dan mengembangkan perangkat lunak, memungkinkan para pengembang untuk membangun komponen perangkat lunak yang lebih modular dan dapat digunakan kembali.</p>
+        <p>Pada tahun 1970-an dan 1980-an, bahasa pemrograman Smalltalk, yang dikembangkan oleh Alan Kay dan timnya di Xerox PARC, memainkan peran penting dalam mempopulerkan PBO. Smalltalk adalah bahasa pemrograman yang sepenuhnya berorientasi objek dan menekankan konsep "semua adalah objek". Smalltalk juga memperkenalkan lingkungan pengembangan terpadu (IDE) yang memungkinkan pengembang untuk berinteraksi langsung dengan objek dan kelas dalam waktu nyata.</p>
+        <p>Bahasa pemrograman C++ yang dikembangkan oleh Bjarne Stroustrup pada awal 1980-an membawa konsep PBO ke dalam dunia pemrograman yang lebih luas. C++ adalah perluasan dari bahasa C yang menambahkan dukungan untuk objek dan kelas. C++ memungkinkan pengembang untuk menggabungkan pemrograman prosedural dan berorientasi objek dalam satu bahasa, membuatnya menjadi pilihan populer untuk pengembangan perangkat lunak sistem dan aplikasi.</p>
+        <p>Java, yang dikembangkan oleh James Gosling dan timnya di Sun Microsystems pada pertengahan 1990-an, lebih lanjut mempopulerkan PBO. Java dirancang untuk menjadi bahasa pemrograman yang sederhana, aman, dan platform-independen, dengan dukungan penuh untuk PBO. Java memungkinkan pengembang untuk menulis kode yang dapat dijalankan di berbagai platform tanpa perubahan, membuatnya sangat populer untuk pengembangan aplikasi web dan mobile.</p>
+        <p>PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara dengan memperkenalkan konsep abstraksi, enkapsulasi, pewarisan, dan polimorfisme. PBO memungkinkan pengembang untuk membangun sistem yang lebih modular dan dapat dipelihara dengan lebih mudah. Dengan menggunakan objek dan kelas, pengembang dapat membuat komponen perangkat lunak yang dapat digunakan kembali, mengurangi biaya pengembangan, dan meningkatkan kualitas perangkat lunak. PBO juga memfasilitasi kolaborasi tim dengan membagi tugas pengembangan ke dalam komponen-komponen yang lebih kecil dan terpisah.</p>
+        
+        <h2>Perbedaan Pemrograman Prosedural dan PBO</h2>
+        <table>
+            <tr>
+                <th>Aspek</th>
+                <th>Pemrograman Prosedural</th>
+                <th>Pemrograman Berorientasi Objek (PBO)</th>
+            </tr>
+            <tr>
+                <td>Struktur Program</td>
+                <td>Berdasarkan prosedur atau fungsi</td>
+                <td>Berdasarkan objek dan kelas</td>
+            </tr>
+            <tr>
+                <td>Pendekatan</td>
+                <td>Pendekatan top-down</td>
+                <td>Pendekatan bottom-up</td>
+            </tr>
+            <tr>
+                <td>Kelebihan</td>
+                <td>Mudah dipelajari, cocok untuk program kecil</td>
+                <td>Modular, mudah dipelihara, dapat digunakan kembali</td>
+            </tr>
+            <tr>
+                <td>Contoh Bahasa Pemrograman</td>
+                <td>C, Pascal, Fortran</td>
+                <td>Java, C++, Python</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pemrograman Berorientasi Objek</p>
+    </footer>
+</body>
+</html>
